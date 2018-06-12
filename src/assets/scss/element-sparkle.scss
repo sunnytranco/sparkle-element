@@ -1,13 +1,5 @@
-// Global
-@import 'colors';
-@import 'vars';
-@import 'mixins';
-@import 'fonts';
-@import 'typography';
-@import 'spacing';
+// IMPORT CUSTOMIZE ELEMENT
+@import 'element-customize';
 
-// Customize Element
-@import 'element';
-
-// Import original element theme
+// IMPORT ELEMENT CHALK THEME
 @import "~element-ui/packages/theme-chalk/src/index";
