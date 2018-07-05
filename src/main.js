@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui'
-import './assets/scss/element-sparkle.scss'
+import '../assets/style.scss'
 import App from './App.vue'
 
 Vue.use(ElementUI)

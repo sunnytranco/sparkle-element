@@ -46,7 +46,7 @@
     <el-col :span="12">
       <el-form ref="form" :model="form" label-width="120px">
         <el-form-item label="Activity name">
-          <el-input v-model="form.name"></el-input>
+          <el-input v-model="form.name" class="cii-outline"></el-input>
         </el-form-item>
         <el-form-item label="Activity zone">
           <el-select v-model="form.region" placeholder="please select your zone">
@@ -94,7 +94,7 @@
 <hr class="space">
 <el-row>
   <el-button>Default</el-button>
-  <el-button type="primary">Primary</el-button>
+  <el-button type="primary" class="cii-outline">Primary</el-button>
   <el-button type="success">Success</el-button>
   <el-button type="info">Info</el-button>
   <el-button type="warning">Warning</el-button>
@@ -175,5 +175,11 @@ export default {
 
 .space {
   margin: 100px auto;
+}
+
+.cii-outline {
+  outline-style: solid;
+  outline-color: blueviolet;
+  outline-width: 16px;
 }
 </style>

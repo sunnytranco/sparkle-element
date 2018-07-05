@@ -1,0 +1,5 @@
+// Import customize sass from CII Element
+@import '~cii-element/cii-element';
+
+// Import original element theme, this theme will be overwrite by cii-element.scss
+@import '~element-ui/packages/theme-chalk/src/index';
